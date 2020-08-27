@@ -2514,6 +2514,12 @@ a.readmore {
 .contact_details li {
   padding: 0 0 5px 0;
   list-style: none;
+  color: gainsboro !important;
+}
+
+.contact_details_form li {
+  padding: 0 0 5px 0;
+  list-style: none;
 }
 
 .pricing li:before, .check li:before {
