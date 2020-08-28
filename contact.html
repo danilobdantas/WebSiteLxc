@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="utf-8">
-  <title>MaxiBiz Bootstrap Business Template</title>
+  <title>Contato - Lexicon</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -103,23 +103,23 @@
         <div class="col-lg-6 col-md-6 col-sm-6">
           <h4 class="title">Entre em contato</h4>
           <div id="message"></div>
-          <form class="contact-form php-mail-form" role="form" action="contactform/mail.php" method="POST">
+          <form class="contact-form php-mail-form" role="form" action="contactform/ContactEmail.php" method="POST">
 
             <div class="form-group">
-              <input type="name" name="remetenteNome" class="form-control" id="contact-name" placeholder="Seu Nome" data-rule="minlen:4" data-msg="Nome deve conter pelo menos 4 caracteres" >
+              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Seu Nome" data-rule="minlen:4" data-msg="Nome deve conter pelo menos 4 caracteres" >
               <div class="validate"></div>
             </div>
             <div class="form-group">
-              <input type="email" name="remetenteEmail" class="form-control" id="contact-email" placeholder="Seu Email" data-rule="email" data-msg="Informe um e-mail válido">
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Seu Email" data-rule="email" data-msg="Informe um e-mail válido">
               <div class="validate"></div>
             </div>
             <div class="form-group">
-              <input type="text" name="assunto" class="form-control" id="contact-subject" placeholder="Assunto" data-rule="minlen:4" data-msg="O assunto deve conter pelo menos 4 caracteres">
+              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Assunto" data-rule="minlen:4" data-msg="O assunto deve conter pelo menos 4 caracteres">
               <div class="validate"></div>
             </div>
 
             <div class="form-group">
-              <textarea class="form-control" name="mensagem" id="contact-message" placeholder="Sua Mensagem" rows="5" data-rule="required" data-msg="Informe aqui sua mensagem"></textarea>
+              <textarea class="form-control" name="message" id="contact-message" placeholder="Sua Mensagem" rows="5" data-rule="required" data-msg="Informe aqui sua mensagem"></textarea>
               <div class="validate"></div>
             </div>
 
@@ -138,7 +138,7 @@
           <h4 class="title">Informações</h4>
           <p>Entre em contato conosco por meio do formulário ou através dos canais abaixo:</p>
           <ul class="contact_details_form">
-            <li><i class="fa fa-envelope-o"></i> lexicon@lexicon.com.br</li>
+            <li><i class="fa fa-envelope-o"></i> <a href="mailto:lexicon@lexicon.com.br"> lexicon@lexicon.com.br</a></li>
             <li><i class="fa fa-phone-square"></i> +55 41 3029-9819</li>
             <li><i class="fa fa-home"></i> Rua Arcesio Guimarães 800, Curitiba/PR</li>
           </ul>
@@ -165,7 +165,7 @@
       <div class="widget col-lg-4 col-md-4 col-sm-12">
         <h4 class="title">Lexicon Informática e Serviços</h4>
         <ul class="contact_details">
-          <li><i class="fa fa-envelope-o"></i> lexicon@lexicon.com.br</li>
+          <li><i class="fa fa-envelope-o"></i> <a href="mailto:lexicon@lexicon.com.br"> lexicon@lexicon.com.br</a></li>
           <li><i class="fa fa-phone-square"></i> +55 41 3029-9819</li>
           <li><i class="fa fa-home"></i> Rua Arcesio Guimarães 800, Curitiba/PR</li>
         <!-- contact_details -->
@@ -224,7 +224,6 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-
 
 </body>
 </html>
