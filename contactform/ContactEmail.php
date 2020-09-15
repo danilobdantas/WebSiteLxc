@@ -6,7 +6,7 @@ $subject = addslashes($_POST['subject']);
 $message = addslashes($_POST['message']);
 
 $to = "efim@uol.com.br, danilo.dantas@lexicon.com.br";
-$subject = "Formulário Site Lexicon";
+$subject = "Contato Site Lexicon";
 $body = "Nome: ".$name."\r\n".
         "E-mail: ".$email."\r\n".
         "Mensagem: ".$message;
